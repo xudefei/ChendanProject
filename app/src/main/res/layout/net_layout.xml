@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@color/baseBack"
+    >
+    <TextView
+        android:id="@+id/get"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:text="get请求"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/post"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:text="post请求"
+        android:gravity="center"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+       <TextView
+           android:id="@+id/webView"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+       </TextView>
+
+    </ScrollView>
+
+</LinearLayout>

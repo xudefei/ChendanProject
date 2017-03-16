@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.administrator.chendanproject.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/rxjava"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Rxjava"
+        android:gravity="center"
+        android:background="@color/colorPrimary"/>
+    <TextView
+        android:id="@+id/Xutils"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Xutils"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:background="@color/colorAccent"/>
+    <TextView
+        android:id="@+id/PayDemo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="支付宝模块"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:background="#62d10c"/>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/binder"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="进程间通信模块"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:background="#1ecae1"/>
+        <TextView
+            android:id="@+id/matrix"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="图形变换"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:background="#9ae11e"/>
+
+    </LinearLayout>
+
+</LinearLayout>
